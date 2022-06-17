@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+
+}
+
+  body {
+    background-image: url(bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  .topic {
+    max-height: 200px;
+    max-width: 500px;
+    margin-top: 250px;
+    margin-right: 50px;
+  }
+  
+  .headbtn {
+    padding-top: 20px;
+  }
+  
+  form {
+    width: 540px;
+    height: 476px;
+    background-color: white;
+    border-radius: 8px;
+    padding-left: 35px;
+
+  }
+  
+  #submit {
+    font-size: 16px;
+    height: 48px;
+    width: 459px;
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 10px;
+    color: white;
+    margin-top: 15px;
+    border-width: 0px;
+  }
+  
+  button {
+    height: 48px;
+    width: 540px;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    color: white;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    border-width: 0px;
+    box-shadow: 0px 10px  rgb(253, 174, 174);
+  
+    font-size: 16px;
+  }
+  
+  #fname {
+    height: 48px;
+    width: 459px;
+    border-radius: 10px;
+    border-width: 1px;
+    padding-left: 25px;
+
+    font-size: 16px;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 50px;
+    line-height: 45px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  
+  p {
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  
+  h5{
+      color:rgb(161, 161, 161);
+      text-align: center;
+      margin-top: 10px;
+      padding-left: 0;
+      font-size: 11px;
+  }
+
+  
+  .error-icon{
+    color: red;
+    right:px;
+  }
+  
+  .error-txt{
+    margin-top: 5px;
+    color: red;
+    font-size:10px;
+    text-align: right;
+    margin-right: 45px;
+  }
